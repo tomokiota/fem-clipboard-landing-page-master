@@ -1,0 +1,197 @@
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+body {
+  background-image: url(images/bg-header-desktop.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.375rem;
+  margin-bottom: 25px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4e565b;
+  font-weight: 600;
+}
+
+p {
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* .container {
+  margin: 0 auto;
+  text-align: center;
+  width: 1024px;
+} */
+
+.hero-sec,
+.download {
+  letter-spacing: 0.5px;
+  margin: 130px auto 0;
+  width: 670px;
+}
+
+.logo {
+  height: 125px;
+  margin-bottom: 70px;
+  width: 125px;
+}
+
+.hero-sec p {
+  margin-top: 30px;
+}
+
+.cta-ios,
+.cta-mac {
+  border-radius: 50px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  margin: 50px 5px 0;
+  padding: 18px 40px;
+}
+
+.cta-ios {
+  background-color: #26bba5;
+  box-shadow: 0 3px #1a9f8a;
+}
+.cta-mac {
+  background-color: #6174ff;
+  box-shadow: 0 5px #5161db;
+}
+
+.feature-1,
+.feature-2,
+.feature-3,
+.companies,
+.download {
+  margin-bottom: 85px;
+  margin-top: 160px;
+}
+
+.feat-desc {
+  margin: 0 auto 80px;
+  /* margin-top: 80px; */
+  width: 725px;
+}
+
+.feat-desc p {
+  letter-spacing: 0.5px;
+}
+
+.feat-detail {
+  display: flex;
+  align-items: center;
+}
+
+.feature-1 .feat-detail .feat-img {
+  left: -135px;
+  position: relative;
+  width: 50%;
+}
+
+.feature-1 .feat-detail .feat-img img {
+  height: auto;
+  width: 100%;
+}
+
+.feature-1 .feat-detail .feat-list {
+  margin-left: 70px;
+  text-align: left;
+  width: 350px;
+}
+
+.feature-1 .feat-detail .feat-list li {
+  margin-bottom: 70px;
+}
+
+.feature-3 .feat-list,
+.company-logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.feature-3 .feat-list li {
+  width: 33%;
+}
+
+.feature-3 .feat-list li .icon {
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+.feature-3 .feat-list li p {
+  line-height: 2;
+}
+
+.company-logos li {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #f5f6f8;
+  padding: 45px 0;
+}
+
+.footer-content {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.links,
+.socials {
+  flex-grow: 1;
+}
+
+.footer-logo {
+  height: 55px;
+  width: 55px;
+}
+
+.footer-content .links {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 90px;
+  margin-left: 130px;
+  text-align: left;
+  width: 590px;
+}
+
+.link-items {
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
